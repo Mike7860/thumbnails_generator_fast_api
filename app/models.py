@@ -1,7 +1,7 @@
 from sqlalchemy import Boolean, Column, ForeignKey, Integer, String
 from pydantic import BaseModel
 # from sqlalchemy.orm import relationship
-from .database import Base
+from database import Base
 
 
 class Item(Base):
